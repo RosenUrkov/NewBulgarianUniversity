@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+
+    <title>Image Previewer</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="title">Image Previewer</h1>
+
+        <div class="inner-container">
+
+            <div class="image-details-previewed"></div>
+            <div class="image-manager">
+
+                <div class="image-stored-container">
+
+                    <div class="image-search-container">
+                        <div class="image-search">
+                            <span class="image-search-label">Search:</span>
+                            <input type="text" class="image-search-input">
+                        </div>
+                    </div>
+
+                    <div class="image-container"></div>
+
+                    <button class="show-image-upload-button">Upload new image!</button>
+                </div>
+
+                <div class="image-upload-container hidden">
+
+                    <h1 class="image-upload-title">Upload new image!</h1>
+
+                    <input type="text" id="image-upload-input-name" placeholder="Enter image name here">
+                    <input type="text" id="image-upload-input-url" placeholder="Enter image url here">
+
+                    <button class="image-upload-button" disabled>Upload!</button>
+                    <button class="back-button">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
